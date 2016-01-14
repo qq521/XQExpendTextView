@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/qq521/XQExpendTextView.git", :tag => "0.0.1" }
-  s.exclude_files = "XQExpendTextView/*"
+  s.source_files = "XQExpendTextView/*.{h,m}"
   s.requires_arc = true
 end
