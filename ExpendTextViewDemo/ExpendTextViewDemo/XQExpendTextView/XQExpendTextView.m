@@ -35,8 +35,8 @@
         _textView.textContainerInset = UIEdgeInsetsZero;
         _textView.showsVerticalScrollIndicator = NO;
         _textView.textAlignment = NSTextAlignmentJustified;
+        _textView.backgroundColor = [UIColor clearColor];
         [self addSubview:_textView];
-        self.backgroundColor = [UIColor whiteColor];
         [self addTarget:self action:@selector(expendOrClose) forControlEvents:UIControlEventTouchUpInside];
 
     }

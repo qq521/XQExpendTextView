@@ -20,6 +20,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     XQExpendTextView *expendTextView = [[XQExpendTextView alloc] initWithFrame:CGRectMake(10, 200, CGRectGetWidth(self.view.frame) - 20, 50)];
     expendTextView.text = @"这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.这是一个可以展开闭合的textView.";
+    expendTextView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:expendTextView];
 }
 
